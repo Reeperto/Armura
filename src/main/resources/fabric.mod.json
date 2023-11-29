@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "armura",
+  "version": "${version}",
+  "name": "Armura",
+  "description": "Armor in the vanilla spirit",
+  "authors": [
+    "deegs79",
+    "Reeperto"
+  ],
+  "contact": {
+    "website": "deegs.ca/Armura",
+    "repo": "https://github.com/deegs/Armura"
+  },
+  "license": "All-Rights-Reserved",
+  "icon": "assets/armura/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "io.github.deegs79.armura.Armura"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}

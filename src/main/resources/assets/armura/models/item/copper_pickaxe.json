@@ -1,0 +1,6 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "armura:item/copper_pickaxe/unoxidized"
+  }
+}
