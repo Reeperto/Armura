@@ -16,10 +16,16 @@
   "icon": "assets/armura/icon.png",
   "environment": "*",
   "entrypoints": {
+    "fabric-datagen": [
+      "io.github.deegs79.armura.DataGeneratorEntry"
+    ],
     "main": [
       "io.github.deegs79.armura.Armura"
     ]
   },
+  "mixins": [
+    "armura.mixins.json"
+  ],
   "depends": {
     "fabricloader": ">=${loader_version}",
     "fabric": "*",
